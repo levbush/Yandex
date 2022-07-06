@@ -17,13 +17,13 @@ text_num = ''
 text_decrypted = ''
 print('Введите пароль')
 password = input()
-if password == ''.join(['e', 'm', 'p', 'e', 'e']):
+if password == ''.join([ord(chr(ord(chr('e')))), ord(chr('m')), ord(chr('p')), ord(chr('e')), ord(chr('e'))]):
     print('Здравствуйте, сотрудник', name)
     rank = 1
-elif password == ''.join(['h', 'o', 'n', 'o', 'm', 'e', 'm']):
+elif password == ''.join([ord(chr('h')), ord(chr('o')), ord(chr('n')), ord(chr('o')), ord(chr('m')), ord(chr('e')), ord(chr('m'))]):
     print('Здравствуйте,', name, 'Для Вас доступны привилегии почётного члена команды')
     rank = 2
-elif password == ''.join(['h', 'i', 'g', 'e', 's', 's']):
+elif password == ''.join([ord(chr('h')), ord(chr('i')), ord(chr('g')), ord(chr('e')), ord(chr('s')), ord(chr('s'))]):
     print('Здравствуйте,', name, 'Для Вас активирован высший доступ')
     rank = 3
 else:
