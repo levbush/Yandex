@@ -43,3 +43,11 @@ if rank != 0:
                 for m in range(0, len(text_num), 2):
                     text_decrypted += letters[numbers.index(text_num[m] + text_num[m + 1])]
                 print(text_decrypted)
+            if action == 'Зашифровка':
+                print('Введите текст')
+                text_decrypted = input()
+                for n in range(len(text_decrypted)):
+                    text_num += numbers[letters.index(text_decrypted[n])]
+                for m in range(len(text_num)):
+                    text_encrypted += secsim[digits.index(text_num[m])]
+                print(text_encrypted)
