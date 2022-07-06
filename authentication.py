@@ -18,13 +18,13 @@ text_num = ''
 text_decrypted = ''
 print('Введите пароль')
 password = input()
-if password == 'empee':
+if password == ''.join(['e', 'e', 'p', 'm', 'e'].reverse()):
     print('Здравствуйте, сотрудник', name)
     rank = 1
-elif password == 'honomem':
+elif password == ''.join(['m', 'e', 'm', 'o', 'n', 'o', 'h'].reverse()):
     print('Здравствуйте,', name, 'Для Вас доступны привилегии почётного члена команды')
     rank = 2
-elif password == 'higess':
+elif password == ''.join(['s', 's', 'e', 'g', 'i', 'h'].reverse()):
     print('Здравствуйте,', name, 'Для Вас активирован высший доступ')
     rank = 3
 else:
