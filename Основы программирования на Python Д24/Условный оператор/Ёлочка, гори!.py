@@ -1,0 +1,1 @@
+print('ГОРИ' if input() == 'раз' and input() == 'два' and input() == 'три' else 'НЕ ГОРИ')

@@ -1,0 +1,1 @@
+print('МЯУ' if 'кот' in input() else 'ГАВ')
