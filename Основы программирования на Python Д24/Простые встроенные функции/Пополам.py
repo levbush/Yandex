@@ -1,0 +1,1 @@
+print('нечётное' if int(input()) % 2 else 'чётное')

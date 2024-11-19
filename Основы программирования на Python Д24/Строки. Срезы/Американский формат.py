@@ -1,0 +1,1 @@
+print((lambda phone: '+1(' + phone[0:3] + ')' + phone[3:6] + '-' + phone[6:])(input()))

@@ -1,0 +1,1 @@
+print('ВЕРНО' if input()[-1] == input()[0] else 'НЕВЕРНО')

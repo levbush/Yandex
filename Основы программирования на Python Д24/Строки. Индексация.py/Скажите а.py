@@ -1,0 +1,1 @@
+print('ДА' if input()[0] == 'а' else 'НЕТ')

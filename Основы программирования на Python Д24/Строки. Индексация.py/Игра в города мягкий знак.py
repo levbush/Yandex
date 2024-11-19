@@ -1,0 +1,1 @@
+print('ВЕРНО' if input().rstrip('ь')[-1] == input()[0] else 'НЕВЕРНО')

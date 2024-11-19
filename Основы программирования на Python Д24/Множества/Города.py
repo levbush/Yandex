@@ -1,0 +1,1 @@
+print((lambda x: 'OK' if input() not in x else 'TRY ANOTHER')({input() for _ in range(int(input()))}))
