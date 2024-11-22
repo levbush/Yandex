@@ -1,8 +1,6 @@
 import numpy as np
 
-
 r30 = {(1, 1, 1): 0, (1, 1, 0): 0, (1, 0, 1): 0, (1, 0, 0): 1, (0, 1, 1): 1, (0, 1, 0): 1, (0, 0, 1): 1, (0, 0, 0): 0}
-
 
 def generation(line):
     line = np.array(list(line), dtype=np.uint8)
