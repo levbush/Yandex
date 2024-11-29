@@ -1,0 +1,1 @@
+print(*['-'.join(' '.join([i for i in iter(input, '*')]).split()) for _ in range(int(input()))][::-1], sep=', ')

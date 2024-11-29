@@ -1,0 +1,1 @@
+print(', '.join(s for _ in range(int(input())) if 'лук' not in (s := input())))
