@@ -1,0 +1,1 @@
+print(*(lambda els: [el.rjust(len(max(els, key=len))) for el in els])(sorted([el for el in input().split(',') if not ''.join(el.split('_')).isalnum()])), sep='\n')

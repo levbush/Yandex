@@ -1,0 +1,1 @@
+print(*[input().split('#')[0].rstrip() for i in range(int(input()[1:]))], sep='\n')

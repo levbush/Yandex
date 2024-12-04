@@ -1,0 +1,1 @@
+print((lambda s: max(s.count(i) for i in set(s)))(input().lower()))

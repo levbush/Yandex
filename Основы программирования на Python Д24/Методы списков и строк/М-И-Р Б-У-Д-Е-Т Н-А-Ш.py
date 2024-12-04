@@ -1,0 +1,1 @@
+print(*['-'.join(list(i.upper())) for i in input().split()])
