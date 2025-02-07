@@ -1,0 +1,1 @@
+print(*(lambda s: [s[:i].count(s[i]) + 1 for i in range(len(s))])(input().split()))
